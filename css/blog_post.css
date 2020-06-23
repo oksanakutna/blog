@@ -1,0 +1,195 @@
+@import "global.css";
+
+.author-pic {
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: top center;
+}
+
+.title {
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  margin: 25px 0;
+}
+
+.date {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: -0.025em;
+  color: #8f8f8f;
+}
+
+.social-media-share {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.social-media-icon {
+  height: 35px;
+  padding: 0 5px;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.author-bio {
+  text-align: center;
+}
+
+.content {
+  padding: 10px 40px;
+}
+
+.lid {
+  font-weight: 500;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.body {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+blockquote {
+  display: block;
+  background-color: rgba(143, 143, 143, 0.29);
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  padding: 30px;
+  margin: 0;
+}
+
+.inside-pic {
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+
+figcaption {
+  text-align: right;
+  color: gray;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .author-pic {
+    height: 500px;
+  }
+  .title {
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    margin: 30px 0;
+  }
+  .date {
+    font-size: 16px;
+  }
+  .social-media-share {
+    margin: 30px 0;
+  }
+  .author-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+  }
+  .author-bio {
+    text-align: left;
+  }
+  .content {
+    padding: 20px 70px;
+  }
+  .lid {
+    font-size: 18px;
+  }
+  .body {
+    font-size: 18px;
+  }
+  blockquote {
+    font-size: 28px;
+    padding: 45px 0;
+    margin: 0;
+  }
+  .inside-pic {
+    height: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .author-pic {
+    height: 700px;
+  }
+
+  .title {
+    font-size: 40px;
+    margin: 50px 0;
+  }
+
+  .date {
+    font-size: 18px;
+  }
+
+  .social-media-share {
+    margin: 30px 0;
+  }
+
+  .author-info {
+    margin-bottom: 40px;
+  }
+
+  .social-media-icon {
+    height: 40px;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+  }
+
+  .content {
+    padding: 20px 150px;
+  }
+
+  .lid {
+    font-size: 20px;
+  }
+
+  .body {
+    font-size: 20px;
+  }
+
+  blockquote {
+    font-size: 30px;
+    padding: 60px 0;
+  }
+
+  .inside-pic {
+    height: 700px;
+  }
+}

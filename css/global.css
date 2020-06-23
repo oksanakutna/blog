@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* Navigation Bar */
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0px 4px 10px rgba(70, 66, 66, 0.05);
+}
+
+.top-nav :hover {
+  background-color: rgba(70, 66, 66, 0.05);
+}
+
+.nav-item {
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Header */
+.logo {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.social-media {
+  margin: 10px 0 10px 0;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media-logo {
+  height: 35px;
+  padding: 0 5px;
+}
+
+.logo-footer {
+  width: 200px;
+  height: auto;
+  margin: 10px 0 10px 0;
+}
+
+.subscription {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0 10px 0;
+}
+
+button {
+  border: none;
+  padding: 10px 15px;
+  background: black;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button,
+button:active {
+  outline: 0;
+}
+
+button:hover {
+  background: rgb(160, 160, 160);
+}
+
+.container {
+  width: calc(100% - 64px);
+  max-width: 1200px;
+  padding: 0 32px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: rgb(196, 196, 196, 20%);
+}
+
+.footer-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .nav-item {
+    font-size: 20px;
+  }
+  .logo {
+    width: 300px;
+  }
+  footer {
+    flex-direction: row;
+  }
+  .social-media {
+    flex: 1;
+  }
+  .social-media-logo {
+    height: 40px;
+  }
+  .subscription {
+    flex: 1;
+  }
+
+  .footer-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-item {
+    font-size: 22px;
+    padding: 10px 20px;
+  }
+  .logo {
+    width: 350px;
+  }
+  footer {
+    flex-direction: row;
+  }
+  .social-media {
+    flex: 1;
+  }
+  .social-media-logo {
+    height: 40px;
+  }
+  button {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .subscription {
+    flex: 1;
+  }
+}
